@@ -31,7 +31,7 @@ public class ActiveMqConsumer1 {
 		messageConsumer.setMessageListener(new MyListener(1));
 
 		// just test
-		System.out.println("test");
+		System.out.println("test111111111111111");
         System.out.println("master");
         System.out.println("--------------");
 	}
