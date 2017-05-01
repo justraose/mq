@@ -33,6 +33,7 @@ public class ActiveMqConsumer1 {
 		// just test
 		System.out.println("test");
         System.out.println("master");
+        System.out.println("--------------");
 	}
 
 }
