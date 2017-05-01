@@ -9,6 +9,7 @@ import javax.jms.TextMessage;
 
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 public class ActiveMqConsumer1 {
 
@@ -28,6 +29,9 @@ public class ActiveMqConsumer1 {
 		MessageConsumer messageConsumer = session.createConsumer(destination);
 		// 监听
 		messageConsumer.setMessageListener(new MyListener(1));
+
+		// just test
+		System.out.println("test");
 	}
 
 }
